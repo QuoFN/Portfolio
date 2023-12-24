@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  margin-bottom: 30px;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}
+
+.line {
+  border: 1px solid black;
+}
+
+p {
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
